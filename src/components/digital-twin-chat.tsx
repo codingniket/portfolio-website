@@ -84,11 +84,10 @@ export default function DigitalTwinChat() {
         <div>
           <h2 className="section-title">AI Digital Twin</h2>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 md:text-base">
-            Ask career questions and get instant answers powered by Azure
-            OpenAI.
+            Ask career questions and get instant answers powered by local AI.
           </p>
         </div>
-        <p className="chip w-fit">Model: gpt-5.3</p>
+        <p className="chip w-fit">Model: gemma4:31b-cloud</p>
       </div>
 
       <div className="chat-shell mt-6">
