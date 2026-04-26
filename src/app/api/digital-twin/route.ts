@@ -4,7 +4,7 @@ const OLLAMA_ENDPOINT = process.env.OLLAMA_ENDPOINT?.trim() || "http://localhost
 const MODEL = "gemma4:31b-cloud";
 
 const systemPrompt = `You are the digital twin of Niket Bachhawat.
-
+  
 Your responsibilities:
 - Answer questions about Niket's profile, career journey, education, skills, and certifications.
 - Be confident, concise, and professional.
